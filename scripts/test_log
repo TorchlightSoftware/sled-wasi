@@ -1,0 +1,2 @@
+#!/bin/bash
+RUST_LOG=wasi_common=trace wasmtime --dir=/tmp --dir=. target/wasm32-wasi/debug/sled-wasi.wasm

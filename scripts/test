@@ -1,0 +1,2 @@
+#!/bin/bash
+RUST_BACKTRACE=1 wasmtime --dir=/tmp --dir=. target/wasm32-wasi/debug/sled-wasi.wasm
